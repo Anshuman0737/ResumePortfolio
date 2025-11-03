@@ -1,0 +1,246 @@
+.
+
+🧠 Prompt — Complete Vision for Portfolio Website (All Inclusive)
+
+Goal:
+Build a stunning, interactive, fully responsive personal + project portfolio website for Anshuman Pandey, showcasing his background, skills, education, experience, and projects — including a major flagship project: Afflatus RAG (Retrieval-Augmented Generation System).
+
+🧩 1. Overall Concept
+
+A galaxy-themed, black-purple luminescent design.
+
+Hero section: animated and interactive — floating card with initials (“AP”) and name, glowing purple with particle galaxy background that responds to cursor movement and scroll.
+
+As user scrolls, sections appear with GSAP / Framer Motion-style physics animations (smooth fades, slides, parallax).
+
+Fully responsive (desktop, tablet, mobile).
+
+Works directly on GitHub Pages or Replit hosting (no backend required).
+
+Stack: HTML, CSS, JS, optionally with small GSAP or Three.js effects.
+
+🪪 2. Hero Section (Lanyard Card Style)
+
+Center floating “ID-card” style glass panel with glowing purple edges.
+
+Shows:
+
+Initials on top (“AP”)
+
+Full name: Anshuman Pandey
+
+Tagline: AI/ML Enthusiast • Full Stack Developer
+
+Location: Bennett University • Noida, India
+
+Buttons:
+
+“Resume” → opens PDF
+
+“Email” → mailto link
+
+Smooth floating animation (subtle up-down movement).
+
+Background: animated galaxy with stars, particles, or moving gradient.
+
+Scroll indicator (e.g., ↓ icon) to hint scrolling to next sections.
+
+🎓 3. Education Section
+
+Bennett University, Noida
+
+B.Tech – Computer Science (AI & Machine Learning specialization)
+
+Duration, achievements, key coursework (e.g., Deep Learning, Full Stack Development, Data Structures).
+
+Include logos or icons for institution and courses.
+
+Add smooth slide-in animation from left.
+
+💼 4. Experience Section
+
+Main experiences (scroll-in cards):
+
+Freelance AI/ML Developer (Remote)
+
+Built intelligent automation tools, chatbot integrations, and data visualization dashboards.
+
+Full Stack Developer Intern
+
+Worked on MERN stack projects, REST APIs, responsive frontends, and backend optimizations.
+
+Include animated glowing borders that react on hover.
+
+🚀 5. Projects Section (Two Divisions)
+🔷 Main Projects
+
+Showcase 3–4 core professional or academic projects:
+
+Afflatus RAG
+
+AI system for Afflatus Gravures company.
+
+RAG-based corporate AI that integrates real company data, backend systems, and analytics.
+
+Built with LangChain / LlamaIndex, FastAPI / Node.js, and React dashboard frontend.
+
+Core features:
+
+Connects ERP, CRM, and production databases
+
+Contextual document retrieval via vector database (Pinecone/Chroma)
+
+Real-time AI reporting, chat, and automation
+
+Acts as a company’s central AI operating system for decision-making.
+
+Portfolio Website
+
+Fully responsive, interactive, hosted on GitHub Pages.
+
+Uses GSAP animations and particle effects.
+
+AI Resume Analyzer
+
+NLP-based web app that analyzes and scores resumes.
+
+Built with Python Flask and OpenAI API.
+
+Chatbot for Academic Assistance
+
+Fine-tuned GPT-like assistant for university students.
+
+🔶 Freelance Projects
+
+Show 3–4 projects delivered to clients:
+
+Custom Business Chatbots (WhatsApp, Web)
+
+Integrated with Dialogflow and Node.js.
+
+E-commerce Dashboard
+
+MERN stack analytics and sales visualization.
+
+Landing Pages & Animated Portfolios
+
+Built modern marketing pages using GSAP and TailwindCSS.
+
+Client CRM automation
+
+API-driven integrations for marketing workflows.
+
+🧠 6. Afflatus RAG — Dedicated Spotlight Section
+
+This section visually and narratively explains your flagship AI project.
+
+Title: “Afflatus RAG — The Intelligent Core of Afflatus Gravures”
+Subheading: “An AI-powered knowledge system connecting company data, operations, and decision-making.”
+
+Animated background resembling neural network glow or AI nodes connecting.
+
+Interactive description cards for each subsystem:
+
+🧩 AI Core (RAG, LangChain)
+
+⚙️ Backend (FastAPI/Node)
+
+🧠 Knowledge Base (Vector DB)
+
+📊 Analytics Dashboard
+
+🔗 System Integration with ERP/CRM
+
+Clickable “Learn More” button linking to full project repo or case study.
+
+🧰 7. Skills Section
+
+Dynamic icon grid or rotating sphere animation with technologies:
+Languages: Python, JavaScript, C++, SQL
+Frameworks: React, Node.js, Express, Flask
+AI/ML: TensorFlow, PyTorch, Scikit-learn, LangChain
+Tools: Git, Docker, VS Code, Postman, Figma
+Other: REST APIs, Cloud, Linux, Firebase
+
+Each skill glows slightly when hovered or animates into view on scroll.
+
+🏆 8. Achievements / Certifications
+
+Animated cards (flip or slide) listing:
+
+AI/ML hackathons
+
+Kaggle projects
+
+Open-source contributions
+
+Top certifications (e.g., Google AI, IBM ML, etc.)
+
+📬 9. Contact Section
+
+Glassmorphic card with form + icons for all links:
+
+📧 Email
+
+💼 LinkedIn
+
+🐙 GitHub
+
+💬 Discord (optional)
+
+🌐 Personal domain (if available)
+
+Add animated “send message” confirmation or particle burst.
+
+⚙️ 10. Animations and Interactivity
+
+Use these libraries:
+
+GSAP for scroll and element animations
+
+Three.js or Vanta.js for galaxy background
+
+VanillaTilt.js for hover depth on cards
+
+Typed.js for dynamic text typing in hero section
+
+All motion should feel smooth, physical, and immersive, not overwhelming.
+
+🌌 11. Aesthetic and Theme
+
+Base: deep black background (#000)
+
+Glow: neon purple and violet gradients (#8B5CF6, #A855F7, #C084FC)
+
+Accent: cyan and white text
+
+Font: “Poppins” or “Inter”
+
+Consistent glassmorphic panels with soft shadows
+
+Responsive layout with grid/flexbox
+
+🧩 12. File Structure
+/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── profile.jpg
+│   ├── bg-stars.png
+│   ├── project-images/
+│   └── icons/
+└── resume.pdf
+
+
+All animations, effects, and content should load smoothly without external backend.
+
+🧠 13. Technical Features (Optional Enhancements)
+
+Preloader animation with initials “AP” glowing in galaxy fade-in.
+
+Smooth scroll and “back to top” button.
+
+Light performance optimizations (lazy load images, minify CSS).
+
+Accessible markup (semantic HTML, ARIA labels).
